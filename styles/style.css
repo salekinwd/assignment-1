@@ -1,4 +1,268 @@
+body{
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgba(241, 241, 243, 1);
+}
+  
+
+
+/* Navbar section */
+.nav-container{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav-btn button{
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 5px;
+    padding: 12px 30px;
+    margin-top: 12px;
+}
+
+/* Banner section */
 .banner{
     background-color: rgba(198, 228, 214, 1);
+    height: 560px;
+    width: 1280px;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+}
+.banner-text{
+    margin: auto;
+}
+.banner-title{
+    font-size:24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin: auto;
+}
+.banner-description{
+    font-weight: bolder;
+    font-size: 56px;
+    margin: auto;
+    color: rgba(14, 14, 14, 1);
+}
+.banner-btn{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    margin:auto
+}
+.banner-btn:hover{
+    background-color: black;
+}
+.banner-img{
+    height: 400px;
+    width: 474px;
+    margin: auto;
+}
+
+/* vision section */
+
+.vision-card-container{
+    display: flex;
+    width: 1310px;
+    height: 300px;
+    margin: auto;
+   
+}
+.vision-card-1{
+    width: 360px;
+    height: 200px;  
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgba(138, 154, 182, 0.2);
+    padding:32px;
+    padding-top: 35px;
+}
+.vision-card-2{
+    width: 360px;
+    height: 200px;  
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color:rgba(198, 228, 214, 1);
+    padding:32px;
+    padding-top: 35px;
+}
+.vision-card-3{
+     width: 360px;
+     height: 200px;  
+     margin-left: 10px;
+     border: 2px solid white;
+     border-radius: 8px;
+     background-color:rgba(219, 187, 114, 1);
+     padding : 32px;
+     padding-top: 35px;}
+
+
+.vision-text{
+    margin-left: 108px;
+    
+}
+.vision-card-btn{
+    padding: 5px;
+    background-color:#5490F5;
+    border-radius: 5px;
+    color: white;
+}
+
+.vision-card-1 button{
+    background-color:rgba(84, 144, 245, 1) ;
+}
+.vision-card-2 button{
+    background-color:rgba(9, 161, 92, 1);
+}
+.vision-card-3 button{
+    background-color:rgba(255, 194, 57, 1);
+}
+/* button hover */
+.vision-card-1 button:hover{
+    background-color:rgba(255, 194, 57, 1);
+}
+.vision-card-2 button:hover{
+    background-color:rgba(84, 144, 245, 1) ;
+}
+.vision-card-3 button:hover{
+    background-color:rgba(9, 161, 92, 1);
+}
+
+/* extra section */
+.quote-container{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:28px 20px ;
+    height: 220px;
+    width: 1280px;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+}
+.quote-text{
+    padding: 30px;
+}
+
+/* news section */
+.news-container{
+    margin: auto;
+}
+.news-text{
+    margin-left: 108px;
+}
+.news-card{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    height: 360px;
+    width: 1280px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.news-card-text{
+    margin: auto;
+}
+.btn-primary{
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    color: azure;
+    background-color: blueviolet;
+}
+.news-card-img{
+    margin: auto;
+}
+.news-card-img img{
+    width: 90%;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+/* donate section */
+.donate-container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.donate-box-container{
+    display: flex;
+    justify-content:center;
+}
+.donate-box{
+    margin-right: 24px;
+    background-color:rgba(255, 255, 255, 1) ;
+    padding: 10px 70px;
+    border-radius: 12px;
+}
+.donate-box-text{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donate-container input{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 18px 400px;
+    border: 2px solid rgba(255, 255, 255, 1) ;
+    border-radius:8px ;
+}
+.donate-box:hover{
+    background-color:  rgba(198, 228, 214, 1);
+}
+
+/* subscribe section+extra */
+.Subscribe-container{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+.Subscribe-container input{
+    padding: 15px 220px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius:8px ;
+}
+.Subscribe-container button{
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.Subscribe-container button:hover{
+    color: black;
+    background-color: violet;
+}
+
+/* footer section */
+.footer-container{
+    text-align: center;
+}
+.footer-text{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+.foooter-icons{
+    display: flex;
+    margin-left: 680px;
+}
+
+.foooter-icons img{
+    margin-left: 15px;
 }
